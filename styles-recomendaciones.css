@@ -1,0 +1,93 @@
+
+/*RECOMENDACIONES*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Navigation Left */
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li{
+    padding: 10px;
+}
+.nav-main ul li a {
+  padding: 25px;
+    
+}
+.nav-main ul li a:hover{
+    background: #102a33;
+    
+}
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left:20px ;
+}
+
+.container-2{
+    width: 100%;
+    display:inline;
+    
+}
+.recomendaciones{
+    width: 60%;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    float: left;
+}
+
+.recomendaciones .recomendaciones-a div:hover{
+    background:#1f7480e7;
+    border: #102a33 solid 1px;
+}
+.recomendaciones div{
+    margin: 10px;
+    padding: 10px;
+}
+
+.recomendaciones h2{
+    font-size: 20px;
+}
+.recomendaciones h2, .recomendaciones p{
+    width: 90%;
+    padding: 1%;
+}
+
+.recomendaciones div img{
+    width: 250px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+.extra-div{
+    width: 35%;
+    margin: 10px;
+    float: right;
+}
+
+.aside-extra .extra-div img{
+    width: 100%;
+    padding: 5px 5px;
+}
+.aside-extra .extra-div img:hover{
+    opacity: 0.9;
+    background: rgb(183, 206, 206);
+}
+
+
+.aside-extra .extra-div .btn{
+    margin: 0 35% ;
+    
+}
+
+.social, .footer-links, .footer{
+    clear: both;
+}
+
+@media(max-width:700px){
+
+}
