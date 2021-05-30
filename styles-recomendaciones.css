@@ -6,24 +6,11 @@ body{
 }
 
 /*Navigation Left */
-.nav-main ul{
-    display: flex;
-}
-.nav-main ul li{
-    padding: 10px;
-}
-.nav-main ul li a {
-  padding: 25px;
-    
-}
 .nav-main ul li a:hover{
     background: #102a33;
     
 }
-.nav-main ul.nav-menu{
-    flex: 1;
-    margin-left:20px ;
-}
+
 /*RECOMENDACIONES*/
 .container-2{
     width: 100%;
@@ -61,8 +48,26 @@ body{
     padding-top: 2%;
     padding-bottom: 2%;
 }
+/* Tooltip text */
+.item .tooltiptext {
+    visibility: hidden;
+    width: 25%;
+    background-color: rgb(7, 34, 44);
+    color: #fff;
+    padding: 5px;
+    position: static;
+    border-radius: 6px;
+   
+    /*Posicion del tooltip text*/
+    position:absolute;
+  }
+  
+  /* Visualiza el tooltip text cuando se pasa el mouse sobre el DIV que contiene la imagen */
+  .item:hover .tooltiptext {
+    visibility: visible;
+  }
 
-
+/*TRAILERS*/
 .extra-div{
     width: 35%;
     margin: 10px;
@@ -90,24 +95,7 @@ body{
     clear: both;
 }
 
-/* Tooltip text */
-.item .tooltiptext {
-    visibility: hidden;
-    width: 25%;
-    background-color: rgb(7, 34, 44);
-    color: #fff;
-    padding: 5px;
-    position: static;
-    border-radius: 6px;
-   
-    /*Posicion del tooltip text*/
-    position:absolute;
-  }
-  
-  /* Visualiza el tooltip text cuando se pasa el mouse sobre el DIV que contiene la imagen */
-  .item:hover .tooltiptext {
-    visibility: visible;
-  }
+
   
      
 
