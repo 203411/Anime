@@ -24,7 +24,7 @@ body{
     flex: 1;
     margin-left:20px ;
 }
-
+/*RECOMENDACIONES*/
 .container-2{
     width: 100%;
     display:inline;
@@ -87,6 +87,29 @@ body{
 .social, .footer-links, .footer{
     clear: both;
 }
+
+/* Tooltip text */
+.item .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /*Posicion del tooltip text*/
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Visualiza el tooltip text cuando se pasa el mouse sobre el DIV que contiene la imagen */
+  .item:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+     
+
 
 @media(max-width:700px){
 
