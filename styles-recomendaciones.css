@@ -32,9 +32,9 @@ body{
 }
 .recomendaciones{
     width: 60%;
-    font-size: 16px;
+    font-size: 18px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     float: left;
 }
@@ -57,7 +57,7 @@ body{
 }
 
 .recomendaciones div img{
-    width: 250px;
+    width: 95%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -66,16 +66,18 @@ body{
 .extra-div{
     width: 35%;
     margin: 10px;
+    padding: 10px;
     float: right;
+    border-left: #fff solid 5px;
 }
 
 .aside-extra .extra-div img{
-    width: 100%;
+    width: 95%;
     padding: 5px 5px;
 }
 .aside-extra .extra-div img:hover{
-    opacity: 0.9;
-    background: rgb(183, 206, 206);
+    opacity: 0.6;
+    background: rgb(120, 255, 255);
 }
 
 
@@ -91,10 +93,11 @@ body{
 /* Tooltip text */
 .item .tooltiptext {
     visibility: hidden;
-    width: 250px;
+    width: 25%;
     background-color: rgb(7, 34, 44);
     color: #fff;
     padding: 5px;
+    position: static;
     border-radius: 6px;
    
     /*Posicion del tooltip text*/
@@ -111,4 +114,7 @@ body{
 
 @media(max-width:700px){
 
+    .recomendaciones{
+        grid-template-columns: 1fr;
+    }
 }
