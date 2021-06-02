@@ -246,6 +246,45 @@ display: flex;
     padding-bottom: 20px;
 }
 
+/*PAGINA PERFILES*/
+.img-perfil{
+    width: 30%;
+    padding: 10px;
+}
+.img-perfil:hover{
+    border: rgb(54, 129, 129) 5px solid;
+    opacity: 0.8;
+}
+.perfil div h2{
+    font-size: 30px;
+}
+.perfil .perfil-div{
+    padding: 20px;
+    margin: 20px;
+    width: 70%;
+    display: inline-block;
+    background: #000000;
+    border: #f7f1e3 solid 2px;
+}
+.perfil div .img-perfil{
+    float: left;
+}
+.perfil div p{
+    text-align: justify;
+    width: 70%;
+    float:right;
+    padding: 10px;
+}
+.perfil .perfil-div h3, .perfil .perfil-div a i{
+    clear: both;
+    padding-left: 20px;
+}
+.perfil .perfil-div a i{
+    margin: 10px;
+    font-size: 2rem;
+}
+
+
 @media (max-width: 700px){
     .menu-btn{
         display: block;
